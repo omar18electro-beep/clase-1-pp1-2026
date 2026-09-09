@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Turístico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat">
+        <div class="header-container">
+        <img src="assets/gauchito-bot.png" class="sticker-bot" alt="Gauchito Chatbot">
+        <h1>Chatbot Turístico</h1>
+        </div>
+       
+        <p class="subtitulo">
+            Bienvenido al asistente turístico de General Juan Madariaga.
+        </p>
+
+
+        <div id="respuesta">
+            👋 Hola. ¿En qué puedo ayudarte?<br><br>
+            Elegí una opción.
+        </div>
+
+
+        <!-- Contenedor del menú: se ocultará al elegir una opción -->
+        <div class="botones" id="menu">
+            <button onclick="mostrarLugares()">📍 Lugares</button>
+            <button onclick="mostrarActividades()">🎉 Actividades</button>
+            <button onclick="mostrarGastronomia()">🍔 Gastronomía</button>
+            <button onclick="mostrarAlojamiento()">🏨 Alojamiento</button>
+            <button onclick="mostrarEventos()">📅 Eventos</button>
+            <button onclick="mostrarContacto()">📞 Contacto</button>
+        </div>
+
+
+        <!-- Contenedor del botón Volver: aparecerá solo después de elegir -->
+        <div id="boton-volver" style="display: none; text-align: center; margin-top: 20px;">
+            <button class="volver" onclick="volver()">🏠 Volver al inicio</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

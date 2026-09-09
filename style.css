@@ -1,0 +1,110 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 30px;
+    background: #dfefff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Contenedor principal del chat */
+.chat {
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px gray;
+}
+
+
+/* Contenedor para alinear la imagen y el título */
+.header-container {
+    display: flex;
+    align-items: center;    /* Alineación vertical */
+    justify-content: center; /* Centrado horizontal */
+    gap: 15px;              /* Espacio entre el gauchito y el texto */
+    margin-bottom: 10px;
+}
+
+
+/* Estilo del gauchito reducido */
+.sticker-bot {
+    width: 60px;            /* Tamaño pequeño como ícono */
+    display: block;
+}
+
+
+/* Título */
+h1 {
+    margin: 0;
+    color: #0d6efd;
+    text-align: center;
+}
+
+
+.subtitulo {
+    text-align: center;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+
+/* Caja de respuesta */
+#respuesta {
+    margin-top: 25px;
+    background: #f3f8ff;
+    border: 2px solid #0d6efd;
+    border-radius: 10px;
+    padding: 20px;
+    min-height: 120px;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+
+/* Contenedor de botones (apilados verticalmente) */
+#menu {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column; /* Apila botones */
+    align-items: center;    /* Centra horizontalmente */
+}
+
+
+/* Estilo de los botones */
+button {
+    width: 250px;           /* Ancho fijo */
+    margin: 5px;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 8px;
+    background: #0d6efd;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+
+button:hover {
+    background: #0b5ed7;
+}
+
+
+/* Botón especial de volver */
+.volver {
+    background: #198754;
+}
+
+
+.volver:hover {
+    background: #157347;
+}
+
+
+/* Contenedor del botón volver */
+#boton-volver {
+    margin-top: 20px;
+    text-align: center;
+}
