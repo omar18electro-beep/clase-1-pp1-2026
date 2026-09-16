@@ -1,1 +1,1 @@
-hola este es un ejemplo de registro
+hola este es un archivo del progrmama para ver el funcionamiento del programa  
