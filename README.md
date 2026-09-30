@@ -1,20 +1,20 @@
-#CHAT BOT PP1#
+#CHAT BOT PP1
 
-##OBJETIVO##
+##OBJETIVO
 
-Chatbot que responde preguntas frecuentes
+**Chatbot que responde preguntas frecuentes**
 
-##TECNOLOGIAS##
+##TECNOLOGIAS
 
 -HTML
 -CSS
 -JS
 
-##INTEGRANTES##
+##INTEGRANTES
 
-omar
-nicolas
-tomas
+***omar**
+***nicolas***
+***tomas***
 
 
 **Nota : Este proyecto corresponde a la materia de PP1**
